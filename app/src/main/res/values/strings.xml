@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Hermes for Twitter</string>
+    <string name="app_name">Hermes for oEmbed</string>
     <string name="app_short_name">Hermes</string>
     <string name="action_settings">Settings</string>
-    <string name="filter_view_http_hermes">Hermes for Twitter</string>
+    <string name="filter_view_http_hermes">Hermes for oEmbed</string>
     <string name="cancelar">Cancelar</string>
     <string name="aceptar">Aceptar</string>
 </resources>
