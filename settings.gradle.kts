@@ -1,3 +1,3 @@
-rootProject.name = "hermes-twitter"
+rootProject.name = "hermes-oEmbed"
 rootProject.buildFileName = "build.gradle.kts"
 include(":app")

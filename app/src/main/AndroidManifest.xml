@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="gal.mpena.hermes.twitter">
+    package="gal.mpena.hermes.oembed">
 
     <application
         android:allowBackup="true"
@@ -32,12 +32,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="http"/>
-                <data android:scheme="https"/>
-                <data android:host="twitter.com"/>
-                <data android:host="mobile.twitter.com"/>
-                <data android:host="www.twitter.com"/>
-                <data android:pathPrefix="/status"/>
+                <data android:scheme="https" android:host="oembed.com" android:pathPrefix=".*" />     
             </intent-filter>
 
         </activity>
