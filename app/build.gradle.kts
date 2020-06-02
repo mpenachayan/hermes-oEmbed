@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion(30)
+    compileSdkVersion("android-R")
     buildToolsVersion = "30.0.0 rc4"
     defaultConfig {
         applicationId = "gal.mpena.hermes.oembed"
         minSdkVersion(21)
-        targetSdkVersion(30)
+        targetSdkVersion("R")
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
